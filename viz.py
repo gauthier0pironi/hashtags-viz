@@ -1,7 +1,3 @@
-# Graphe de ### avec Python.
-#FROM DB
-
-
 from pattern.graph import Graph
 import MySQLdb
 #########
@@ -23,10 +19,6 @@ try:
 except Exception as e:
     print 'error', e
 ##########
-
-####WHAT DOES THIS DO WTF
-#### I SHOULD COMMENT MORE SOMETIMES...
-##CA PREND UNE COMBINAISON DE PAIRES.
 def combinliste(seq, k):
     p = []
     i, imax = 0, 2**len(seq)-1
